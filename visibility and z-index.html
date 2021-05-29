@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibilty and Z-index</title>
+    <!-- z-index order of stacking specify karta hai -->
+    <style>
+        .box{
+            width: 150px;
+            height: 150px;
+            border: 2px solid black;
+        }
+        #box1{
+            position: relative;
+            top: 30px;
+            background-color: blue;
+            z-index: 35;
+        }
+        #box2{
+            /* display: none; */
+            /* visibility: hidden; */
+            /* Display none se space bhi hat jayega but visibility hidden se bas invisible hoga..box wahi rahega */
+
+            /* Stactic position(which is by default) par Z-Index kaam nahi karega */
+            z-index: 30;
+            position: relative;
+            top: 14px;
+            background-color: red;
+        }
+        #box3{
+            background-color: green;
+        }
+        #box4{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

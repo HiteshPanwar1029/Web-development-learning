@@ -1,0 +1,29 @@
+1) ctrl + /	--> comment in vsc
+
+2) meta tag is used in SEO(Search Engine Optimization)
+
+3) Alt+W --> Toggle word wrap
+
+4) p*4 --> 4 paragraph insertion
+
+5)<strong>, <b> --> Bold
+
+6)<em>, <i> --> Italic
+
+7) <br> --> new line break
+
+8) target ="_blank" --> Opens link new tab
+
+9) <ol type = "Jo sequence chahiye(eg 1,I)" --> Ordered list style
+
+10) <ul type = "Jo pattern chahiye(eg circle,disc)" --> Unordered list style
+
+11) Checkbox1 : <input type="checkbox" name = "Mybox" checked> --> By default checked rahega
+
+12) span.RedBg --> Creates a span with class RedBg
+
+13) span#span2 --> Creates a span with ID span2
+
+14) &nbsp --> Adding space in HTML
+
+15) &lt;p&gt --> To print keywords in HTML

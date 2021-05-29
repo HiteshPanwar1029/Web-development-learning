@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h3>This is forms tutorial</h3>
+    <form action="backend.php">
+        <!-- Label se agar text par click karte h to input box select ho jayega automatically -->
+        <label for="name">Name</label>
+        <div>
+     <input type="text" name="myName" id="name">
+    </div>
+
+    <div>
+       Role : <input type = "text" name="MyRole">
+    </div>
+
+    <div>
+        Employee ID : <input type = "number" name="Myid">
+     </div>
+
+    <div>
+        <input type="date" name="Mydate">
+    </div>
+
+    <div>
+        <label for="check">Checkbox1</label>
+     <input type="checkbox" name = "Mybox" id="check">
+    </div>
+
+    <div>
+        Gender : Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+    </div>
+
+    <div>
+    Enter Text : <br><textarea name="Enter ypour text" id="Mytext" cols="30" rows="10"></textarea>
+    </div>
+
+    <div>
+        <label for="car">Car</label>
+        <select name="mycar" id="car">
+            <option value="XUV">XUV</option>
+            <option value="Safari">Safari</option>
+            <option value="Rapid">Rapid</option>
+            <!-- By default select karne ke liye value ke baad selected likh do -->
+        </select>
+    </div>
+
+    <div>
+       <input type="submit" value="Submit Now">
+       <input type = "reset" value="Reset Form">
+     </div>
+</form>
+
+</body>
+</html>

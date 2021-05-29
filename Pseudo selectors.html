@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and more designing</title>
+    <style>
+        .container {
+            border: 2px solid red;
+            background-color: rgb(177, 212, 223);
+            padding: 34px;
+            margin: 34px;
+            width: 620px;
+            }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{ 
+            color:red;
+            background-color: white;
+        }
+        a:visited {
+            background-color: yellowgreen;
+        }
+        a:active{
+            background-color: blue;
+        }
+        .btn{
+                background-color: blanchedalmond;
+                padding: 6px;
+                border: none;
+                cursor: pointer;
+                font-size: 14px;
+            }
+            .btn:hover{
+                background-color: cadetblue;
+                border: 3px solid rgb(165, 56, 192);
+            }
+    </style>
+</head>
+
+<body>
+    <div class="container" id="cont1">
+        <h3>This is our heading</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur natus deserunt at in iste quis nihil
+            asperiores dolores veritatis id repudiandae, quasi illo nesciunt sed, delectus assumenda dicta aut! Nostrum
+            enim adipisci totam fugit.</p>
+            <a href="https://www.youtube.com" class="btn">Read more</a>
+            <button class="btn">contact</button>
+    </div>
+</body>
+
+</html>

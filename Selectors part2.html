@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors part2</title>
+    <style>
+        h1{
+            background-color: cadetblue;
+        }
+         /* div > p{
+             '>' sign lagane ka matlab hai ki div ka direct child p ho tabhi propeties add hongi 
+            
+            background-color: coral;
+            border: 3px solid black; 
+        }*/
+        div + p{
+            /* '+' lagane ka matlab ki div ka sibling p hona chahiye */
+            
+            background-color: coral;    
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>SELECTORS PART2</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li><p>List item 1</p> </li>
+            </ul>
+            <p>This is a paragraph</p>
+        </div>
+        <p>Another paragraph</p>
+    </div>
+    <p>outermost paragraph</p>
+</body>
+</html>

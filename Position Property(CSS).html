@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* position : Static(default), absolute, relative,fixed, sticky */
+        .container{
+            border: 3px solid blue;
+            height: 1400px;
+        }
+        .box{
+            border: 2px solid red;
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            margin: 4px;
+        }
+       #box2{
+           /* position: relative; */
+           /* isme Jo pahale position di hai uske according adjustment honge */
+
+           /* position: absolute; */
+           /* isme top left corner ke accoording adjusmtent honge */
+
+           /* position: fixed;
+           isme block ka positiin fixed rahega ek jagah even if we scroll
+           top: 30px;
+           left: 30px; */
+           /* position sticky */
+
+           position: sticky;
+           top: 10px;
+           
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1">Hello 1</div>
+    <div class="box" id="box2">Hello 2</div>
+    <div class="box" id="box3">Hello 3</div>
+    <div class="box" id="box4">Hello 4</div>
+</div>
+</body>
+</html>
