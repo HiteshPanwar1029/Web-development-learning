@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transitions</title>
+    <style>
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            width: 300px;
+            background-color: chocolate;
+            transition-property: all;
+            transition-duration: 2s;
+        }
+        .box:hover{
+            background-color: cornflowerblue;
+            width: 450px;
+            height: 450px;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is the heading</h2>
+    <div class="conatiner">
+        <div class="box">
+            This is the box
+        </div>
+    </div>
+</body>
+</html>
