@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script String functions</title>
+</head>
+<body>
+    <script>
+        var str = "this is a string";
+        console.log(str);
+
+        //First ocurance of a string
+        // var pos = str.indexOf('is');
+        // console.log(pos);
+
+        //Last occurance of a string
+        var pos = str.lastIndexOf('is');
+        console.log(pos); 
+
+        //Sub string from a string
+        var substr = str.slice(1,6);
+        //Slice ki jagah substr function bhi use kar sakte hai...substr bas negative values nahi leta hai
+        console.log(substr);
+
+        //To replace a word
+        var replaced = str.replace('string','Hitesh');
+        console.log(replaced);
+
+        //To print in lowercase or UPPERCASE
+        // console.log(str.toLowerCase);
+        // console.log(str.toUpperCase);
+
+        //To concatinate strings
+        var newstr = str.concat('This is the new string');
+        console.log(newstr);
+
+        //Trim function aage aur piche ke blank spaces ko trim kar dega
+        //charAt function position return kar ke deta hai
+    </script>
+</body>
+</html>
