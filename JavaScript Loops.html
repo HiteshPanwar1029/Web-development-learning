@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loops</title>
+</head>
+<body>
+    <div class="container">
+        This is about Loops
+    </div>
+    <script>
+        console.log("Testing 123");
+        let i = 0;
+        for(i=0;i<3;i++){
+            console.log(i);
+        }
+
+        let friends = ["Hitesh","Pallavi","Saransh","Prateek","Pragya"];
+        for (element of friends){
+            console.log("Hello, " + element);
+
+            let employee = {
+                name: "hitesh",
+                age : 19,
+                add : "mathura"
+            }
+            for(key in employee){
+
+            console.log(`The ${key} of employee is ${employee[key]}`);
+            }
+        }
+
+        //While loop
+        let k = 4;
+        while(k>0){
+            console.log("K IS GREATER THAN 0");
+            k=0;
+        };
+    </script>
+</body>
+</html>
