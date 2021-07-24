@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript set timeout and clear timeout</title>
+</head>
+<body>
+    <div class="container">
+        <!-- THIS IS A CONTAINER -->
+        The current time is <span id="time"> </span>
+    </div>
+    <script>
+        console.log('hmmmmmmmmm')
+
+        // setTimeout -->  Allows us to run the function once after the interval of time
+        // clearTimeout --> Allows us to run the function repeatedly after the interval of time
+
+        function hello(){
+            console.log('hello ji');
+        }
+
+        // setTimeout( hello, 3000);
+
+    //    timeout = setTimeout( hello, 3000);
+    //    console.log(timeout);
+
+    //    clearTimeout(timeout);
+
+    // setInterval(hello, 1000);
+
+    // Making a clock
+
+    function displayTime(){
+        time = new Date();
+        console.log(time);
+        document.getElementById('time').innerHTML = time;
+    }
+
+    setInterval(displayTime, 1000);
+    </script>
+</body>
+</html>
