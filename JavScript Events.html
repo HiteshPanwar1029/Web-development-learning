@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript events</title>
+    <style>
+        *{
+            padding: 0px 0px;
+            margin: 0px;
+        }
+        .container{
+            border: 5px solid gray;
+            background-color: burlywood;
+
+        }
+        #button{
+            margin: 20px 20px;
+            padding: 15px;
+            background-color: darkblue;
+            border-radius: 20px;
+            font-weight: bold;
+            color: white;
+        }
+    </style>
+</head>
+<!-- <body>
+    Browser events
+    click
+    contextmenu
+    mouseover/mouseout
+    mousedown/mouseup
+     mousemove -->
+
+    <!--form events -->
+    <!-- submit 
+    focus
+    DOMContentLoaded :  Jab website puri download ho jaati hai
+    transition end -->
+    
+    <div class="container">
+        <h1>This is my heading</h1>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, porro minus? Commodi explicabo distinctio doloribus minima laboriosam natus eaque. Optio at rem, iusto maxime culpa ab distinctio atque ratione blanditiis eius repudiandae unde dignissimos consequuntur sit eum, a labore pariatur possimus odit accusantium quasi! Laudantium, illum voluptatum possimus itaque vitae error commodi perspiciatis dolor totam libero explicabo ducimus ea sit. Ea fugit perferendis inventore explicabo quas modi blanditiis provident facilis ad eaque laborum, quasi, velit adipisci? Sunt accusantium, fugit ducimus ad magnam vero ipsam? Incidunt cumque quisquam fugit doloribus aliquam quam ad ipsa, nam, sequi maxime deserunt animi illo. Maiores quasi libero dicta ea, fugit accusamus harum dolorem repellendus consequuntur pariatur nemo, rem nesciunt sit omnis deserunt vel consequatur quos obcaecati magnam? Nobis saepe maxime placeat libero repudiandae natus enim eligendi, tenetur sit non accusantium reiciendis consectetur tempora illum! Possimus voluptas perferendis sint facilis alias, eveniet et fuga praesentium incidunt velit pariatur magni tempora ullam itaque?</p>
+    </div>
+    <button id="button" onclick="hide()">Show/Hide</button>
+<script>
+    let para = document.getElementById("para");
+    para.addEventListener('mouseover', function run(){
+        alert('mouse inside');
+    });
+
+    function hide(){
+      let btn = document.getElementById("button");
+      let para = document.getElementById("para");
+
+      if(para.style.display != 'none'){
+      para.style.display = 'none';
+      }
+      else{
+          para.style.display = 'block';
+      }
+    }
+</script>
+
+</body>
+</html>
