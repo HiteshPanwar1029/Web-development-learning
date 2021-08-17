@@ -1,0 +1,19 @@
+{
+  "name": "nodejsnpm",
+  "version": "1.0.0",
+  "description": "This package is built by me",
+  "main": "NodeJsNpm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hmmm"
+  ],
+  "author": "hitesh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "slugify": "^1.6.0"
+  }
+}
